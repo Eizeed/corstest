@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "yarn --cwd frontend build"
+  },
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^3.0.3"
