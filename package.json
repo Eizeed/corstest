@@ -1,11 +1,10 @@
 {
-  "name": "CORS",
+  "name": "cors",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node backend/server.js",
-    "build": "yarn && yarn --cwd frontend build"
+    "start": "node backend/server.js"
   },
   "license": "MIT",
   "devDependencies": {
