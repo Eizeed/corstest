@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node backend/server.js",
-    "build": "yarn --cwd frontend build"
+    "build": "yarn && yarn --cwd frontend build"
   },
   "license": "MIT",
   "devDependencies": {
